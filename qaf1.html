@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>Document</title>
+    <style>
+        body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+ background-color: #ffd32a;
+ color: #1e272e;
+  
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.content{direction: rtl;
+
+
+
+}
+
+.o2{
+background-color:#05c46b ;
+box-shadow: 2px 4px 2px #1e272e;
+font-size: 30px;
+text-align: center;
+}
+p{
+    box-shadow: 10px 8px 10px blue;
+    font-size: 20px;
+    background-color: #808e9b;
+}
+
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a class="active" >   نادي القادسية</a>
+        <a href="qa.html">معلومات</a>
+        
+        <a href="qaf1.html">انجازات</a>
+        <a href="players.html">افضل لاعيبة</a>
+        <a href="fahdsport.html"> العودة</a>
+    </div>
+    <div class="content">
+        <h1 class="o2">
+      تاريخ  نادي القادسية
+        </h1>
+        <h2 class="o2">
+          كأس الامير
+        </h2>
+        <p>
+يعتبر نادي القادسية اكثر نادي حصولا على بطولة كأس الامير برصيد 16 متغلب على نادي العربي ليصبح نادي القادسية زعيما لكأس الامير
+        </p>
+        <h2 class="o2">
+ دوري الكويتي
+        </h2>
+        <p>
+            في سنة 2016 اصبح نادي القادسية زعيم الكرة الكويتي بعد ما اصبح اكثر نادي حصولا على دوري وبطولات اخرى حيث اصبح رصيد الزعيم 17 دوري 
+        </p>
+        <h2 class="o2">
+ كأس ولي العهد
+        </h2>
+        <p>
+            اخذ الملكي كأس ولي العهد 9 مرات
+        </p>
+        <h2 class="o2">
+ كأس السوبر 
+        </h2>
+        <p>
+            يعتبر نادي القادسية اكثر نادي تتويج في بطولة السوبر برصيد 6 بطولة
+        </p>
+        <h2 class="o2">
+ كأس الاتحاد الاسيوي
+        </h2>
+        <p>
+    
+            بعد ما وصل الزعيم ثلاث مرات الي نهائي وخسرها كلها وفي سنة 2014 اخذ الزعيم بطولة كأس الاتحاد وهذي البطولة الوحيدة التي اخذها الزعيم
+        </p>
+    </div>
+</body>
+</html>
